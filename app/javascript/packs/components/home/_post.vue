@@ -16,6 +16,7 @@
 
                 <span class="timestamp">
                  Posted by
+                    {{post.name}},
                    <!-- <router-link :to="{ name: 'user_path', params: {id: user.id} }">{{ user.name }}</router-link>-->
                     {{post.created_at}} ago
                 </span>

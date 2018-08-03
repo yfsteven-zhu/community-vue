@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
   defaults format: :json do
+    resources :users
     resources :posts, only: :index
   end
 

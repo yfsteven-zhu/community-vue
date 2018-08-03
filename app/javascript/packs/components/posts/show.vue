@@ -1,13 +1,17 @@
 <template>
-    
+    <layout>
+
+    </layout>
 </template>
 
 <script>
+    import Layout from '../shared/layout';
+
     export default {
-        name: "show"
+        components: {
+            Layout
+        }
+
+
     }
 </script>
-
-<style scoped>
-
-</style>

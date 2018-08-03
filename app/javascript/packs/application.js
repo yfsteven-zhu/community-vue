@@ -10,8 +10,8 @@ import Vue from 'vue/dist/vue.esm';
 import router from './routes.js';
 import store from './vuex';
 
-
 import NavTop from './components/shared/_nav_top';
+
 Vue.component('nav-top', NavTop);
 
 
